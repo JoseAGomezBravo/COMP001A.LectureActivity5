@@ -89,9 +89,13 @@ a:hover {
 }
 
 button {
-    padding: 5px 10 px;
+    padding: 5px 10px;
     border: none;
     background-color: #ecf0f1;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: red;
 }
